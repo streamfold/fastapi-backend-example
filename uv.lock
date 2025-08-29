@@ -99,7 +99,7 @@ requires-dist = [
     { name = "pydantic-settings", specifier = ">=2.2.1,<3.0.0" },
     { name = "pyjwt", specifier = ">=2.8.0,<3.0.0" },
     { name = "python-multipart", specifier = ">=0.0.7,<1.0.0" },
-    { name = "rotel", specifier = "==0.0.1a9" },
+    { name = "rotel", specifier = "==0.0.1a15" },
     { name = "sentry-sdk", extras = ["fastapi"], specifier = ">=1.40.6,<2.0.0" },
     { name = "sqlmodel", specifier = ">=0.0.21,<1.0.0" },
     { name = "tenacity", specifier = ">=8.2.3,<9.0.0" },
@@ -1426,15 +1426,24 @@ wheels = [
 
 [[package]]
 name = "rotel"
-version = "0.0.1a9"
+version = "0.0.1a15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "typing-extensions" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2a/a0/e93141293d91018c66511190475492f3f1ea70e11a83fc3e4ec6728761a1/rotel-0.0.1a9-py3-none-macosx_10_9_universal2.macosx_12_3_arm64.whl", hash = "sha256:de88a147dadfa938dba93c636ed4ba4147b513e995b7cf97b02df00ead7b8c65", size = 4585045 },
-    { url = "https://files.pythonhosted.org/packages/52/fc/42dada26188390a8541f2693502a3903e0df20e88555306b34512d138c1c/rotel-0.0.1a9-py3-none-manylinux_2_34_aarch64.whl", hash = "sha256:1f60de2f7edb20798781b8fad756ab8ddf71e8a58de6fd662ab397fce02b550c", size = 4826645 },
-    { url = "https://files.pythonhosted.org/packages/af/58/dcd29bdebc8afe4514e2d314a158143bd880f7c714493f026a6eacac9f42/rotel-0.0.1a9-py3-none-manylinux_2_34_x86_64.whl", hash = "sha256:67c804309bb6171bdd79464c307700547c18d79d907347ab65c9039cc4c79bff", size = 5092648 },
+    { url = "https://files.pythonhosted.org/packages/95/62/8a0637d343e62ae831235e33dfc6349f5bca711abbe806dda678310fe902/rotel-0.0.1a15-cp310-cp310-macosx_10_9_universal2.macosx_12_3_arm64.whl", hash = "sha256:87751d14ace9e3ec19e14adbcbfa182f9dfe7416b8f7c77f77c8ae75f320e51a", size = 9378161 },
+    { url = "https://files.pythonhosted.org/packages/fa/de/80e26e3eb4c2341447af915f81c341c4b239140952e54a85d4dafe74b955/rotel-0.0.1a15-cp310-cp310-manylinux_2_34_aarch64.whl", hash = "sha256:817514e91c57467615784f48c0f055bfdfa245d8e3a2946d829e4a7cb943b389", size = 10330516 },
+    { url = "https://files.pythonhosted.org/packages/6f/cc/6cb9c16851213a4d06ea8011a39bb259d6cb86684235a1f6203a0ce44215/rotel-0.0.1a15-cp310-cp310-manylinux_2_34_x86_64.whl", hash = "sha256:797faed4ec003b0b1ab65fee25a18c991cb863c221f503d383425f0958aaa5fa", size = 10349052 },
+    { url = "https://files.pythonhosted.org/packages/28/45/1826fe04cd318c5daef82c1af9c5f3372a9dc42b399bdb3180bd08987295/rotel-0.0.1a15-cp311-cp311-macosx_10_9_universal2.macosx_12_3_arm64.whl", hash = "sha256:bcb27da321920ef4ba36367f6c51b22f0d69535e43bdf22f9a593384be87a55f", size = 9377656 },
+    { url = "https://files.pythonhosted.org/packages/9e/ee/40e800505aff294699288d0e18e8d96c327a86af49bbc01f93ee6fa81ae6/rotel-0.0.1a15-cp311-cp311-manylinux_2_34_aarch64.whl", hash = "sha256:4eb01f9e5d228e4086f63e16cf1d0fa6e92b724bde51f120932a742acec5b0ba", size = 10331033 },
+    { url = "https://files.pythonhosted.org/packages/95/6e/707655c5b3f6e42287a22b47fef2e9a9ae57ad33ac6cd3efb6f8c1cc1b8e/rotel-0.0.1a15-cp311-cp311-manylinux_2_34_x86_64.whl", hash = "sha256:2f4117e58410c933e0dc042a268ef738dab2e3a5d63b5831209acdac2a6ddcb7", size = 10349391 },
+    { url = "https://files.pythonhosted.org/packages/ab/62/fbefa813d7f77f570c6eb090b3261fc4a6b646d7243b52b643e394351f54/rotel-0.0.1a15-cp312-cp312-macosx_10_9_universal2.macosx_12_3_arm64.whl", hash = "sha256:3805d4a9b52e8d0d4c2f70ce9ed29a451f0c5d57587938261a1ac467b6f93baa", size = 9371104 },
+    { url = "https://files.pythonhosted.org/packages/f1/d3/66c5e557879d97d61f8db8db96998850f68cbc63db92da6422939c153630/rotel-0.0.1a15-cp312-cp312-manylinux_2_34_aarch64.whl", hash = "sha256:ad64b2ce04e37d2c0e88bf34f90b8981381576dc6af2e9604bac69259e106470", size = 10331356 },
+    { url = "https://files.pythonhosted.org/packages/9e/d2/e9249cc7be4c26fdef6e2a2ca7836f8b1fc4607bf07289b822407783e285/rotel-0.0.1a15-cp312-cp312-manylinux_2_34_x86_64.whl", hash = "sha256:6b1a12b2d6d52ab10574cb111053402f2bc195fa55453b19294af57c0d35bece", size = 10353500 },
+    { url = "https://files.pythonhosted.org/packages/0a/e7/59b3527d8628f91fe136d0f4c1e13e93a054ac2c3d4d73de50ee8c95b72e/rotel-0.0.1a15-cp313-cp313-macosx_10_9_universal2.macosx_12_3_arm64.whl", hash = "sha256:021a0d24d33cb97dba9a73560908b016e140db0ed72432b8dae2e9a935d15d38", size = 9372364 },
+    { url = "https://files.pythonhosted.org/packages/e2/04/2ceb9273dff1b29bf232e0a9237639763e834d7ce0df8dcd1d316cecb901/rotel-0.0.1a15-cp313-cp313-manylinux_2_34_aarch64.whl", hash = "sha256:71475e9b9861626c558717f74e3a064ac3cb96121eb6973ea997fe2448ae81fe", size = 10332312 },
+    { url = "https://files.pythonhosted.org/packages/9f/0c/281932a0524d5f1db2dfa67a5102cd12ddf133c37c6502c0953a1921f1cf/rotel-0.0.1a15-cp313-cp313-manylinux_2_34_x86_64.whl", hash = "sha256:322a830deed963dd5dcc460007e917eec071c5977e51c3a06029348f39e4eec9", size = 10353460 },
 ]
 
 [[package]]
