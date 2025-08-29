@@ -25,7 +25,7 @@ dependencies = [
     "uvloop>=0.21.0",
     "opentelemetry-instrumentation-fastapi>=0.50b0",
     "opentelemetry-exporter-otlp-proto-grpc>=1.29.0",
-    "rotel==0.0.1a9",
+    "rotel==0.0.1a15",
 ]
 
 [tool.uv]
